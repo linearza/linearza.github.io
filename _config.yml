@@ -1,6 +1,6 @@
 name: Linear
-description: though not finite
-meta_description: "On front end development"
+description: 
+meta_description: "On front-end development"
 
 markdown: redcarpet
 highlighter: pygments
