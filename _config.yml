@@ -1,6 +1,6 @@
 name: Linear
-description: 
-meta_description: "On front-end development"
+description: "Full time Emberjs front-end developer"
+meta_description: "Full time Emberjs front-end developer"
 
 markdown: redcarpet
 highlighter: pygments
@@ -12,5 +12,5 @@ google_analytics: 'UA-59406852-1'
 
 # Details for the RSS feed generator
 url:            'www.linear.co.za'
-author:         'Linearza'
+author:         'Linear'
 
