@@ -28,4 +28,6 @@ The solution is to edit your `environment.js` file's content security policy, si
   },
 {% endhighlight %}
 
-Note the `font-src` and `style-src` url/data references.
+Note the `font-src` and `style-src` url references.
+
+[roboto]: https://www.google.com/fonts#UsePlace:use/Collection:Roboto
