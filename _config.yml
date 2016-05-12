@@ -3,7 +3,7 @@ description: "Full time Emberjs front-end developer"
 meta_description: "Full time Emberjs front-end developer"
 
 markdown: redcarpet
-highlighter: pygments
+highlighter: rogue
 logo: false
 paginate: 15
 baseurl: /
