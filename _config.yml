@@ -2,7 +2,7 @@ name: Linear
 description: "Full time Emberjs front-end developer"
 meta_description: "Full time Emberjs front-end developer"
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: rogue
 logo: false
 paginate: 15
