@@ -1,9 +1,9 @@
 name: Linear
-description: "Full time Emberjs front-end developer"
-meta_description: "Full time Emberjs front-end developer"
+description: "I am an Ember frontend developer"
+meta_description: "This is my journey"
 
 markdown: kramdown
-highlighter: rogue
+highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
