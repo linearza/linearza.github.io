@@ -5,7 +5,7 @@ date:   2016-05-12 16:24:00
 categories: github config 
 ---
 
-I am finally back online. After wrestling with github pages and getting my apex domain (this one) working alongside subdomains that I use for my projects I finally concluded that it was simply not going to happen, and gave in. 
+I am finally back online. After wrestling for a while with github pages and getting my apex domain (this one), working alongside subdomains that I use for my projects, I finally concluded that it was simply not going to happen, and gave in. 
 
 But alas! The phoenix has risen! After finally regaining some motivation to look into this again and get my blog up and running I came across [this][this] helpful rundown by Jake Zimmerman. 
 
