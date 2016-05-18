@@ -5,7 +5,7 @@ date:   2016-05-18 15:46:00
 categories: coding humour 
 ---
 
-While browsing [Hacker news][hn] today I came across an article on [medium][medium] on what makes a good programmer. This lead me to a list of hilarious quotes that I just thought I'd share again, but of course, all credit to [Naresh Kumar][naresh]:
+While browsing [Hacker news][hn] today I came across an article on [medium][medium] on what makes a good programmer. This lead me to a list of hilarious quotes that I just thought I'd share again, but of course, all credit goes to [Naresh Kumar][naresh] for compiling the list:
 
 ### Software Developers and Programmers Quotes
 
@@ -133,6 +133,6 @@ While browsing [Hacker news][hn] today I came across an article on [medium][medi
 
 8. Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves. (Alan Kay)
 
-[naresh]: http://theprofessionalspoint.blogspot.co.za/2013/09/59-hilarious-but-true-programming.html
-[hn]: http://www.platform7.com/ember-hn/#/new
 [medium]: https://medium.com/@WordcorpGlobal/programming-doesnt-require-talent-or-even-passion-11422270e1e4
+[hn]: http://www.platform7.com/ember-hn/#/new
+[naresh]: http://theprofessionalspoint.blogspot.co.za/2013/09/59-hilarious-but-true-programming.html
