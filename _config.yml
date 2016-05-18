@@ -10,6 +10,7 @@ baseurl: /
 domain_name: 'http://www.linear.co.za'
 google_analytics: 'UA-59406852-1'
 gems: [jekyll-paginate]
+future: true
 
 # Details for the RSS feed generator
 url:            'www.linear.co.za'
