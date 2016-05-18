@@ -5,8 +5,7 @@ date:   2016-05-18 15:46:00
 categories: coding humour 
 ---
 
-While browsing [Hacker news][hn] today I came across and article on [medium][medium] on what makes a good programmer. This lead me to a list of hilarious quotes that I just thought I'd share again, but of course, all credit to [Naresh Kumar][naresh]:
-
+While browsing [Hacker news][hn] today I came across an article on [medium][medium] on what makes a good programmer. This lead me to a list of hilarious quotes that I just thought I'd share again, but of course, all credit to [Naresh Kumar][naresh]:
 
 ### Software Developers and Programmers Quotes
 
