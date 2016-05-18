@@ -1,13 +1,13 @@
 name: Linear
-description: "I am an Ember frontend developer"
-meta_description: "This is my journey"
+description: "Hi there. I am an Ember developer."
+meta_description: "This is my story."
 
 markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
-domain_name: 'http://linear.co.za'
+domain_name: 'http://www.linear.co.za'
 google_analytics: 'UA-59406852-1'
 
 # Details for the RSS feed generator
