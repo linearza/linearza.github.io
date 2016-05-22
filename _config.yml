@@ -1,6 +1,6 @@
 name: Linear
 description: "Hi there. I am an Ember developer."
-meta_description: "This is my story."
+meta_description: "This is my blog."
 
 markdown: kramdown
 highlighter: rouge
@@ -9,7 +9,9 @@ paginate: 15
 baseurl: /
 domain_name: 'http://www.linear.co.za'
 google_analytics: 'UA-59406852-1'
-gems: [jekyll-paginate]
+gems: [jekyll-feed, jekyll-paginate]
+
+
 future: true
 
 # Details for the RSS feed generator
