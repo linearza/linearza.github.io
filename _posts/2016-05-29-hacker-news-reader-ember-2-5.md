@@ -17,7 +17,7 @@ It might be worthwhile spending a moment just looking through the [hacker news a
 Let's generate a new app:
 
 ```
-ember new hn-ember
+$ ember new hn-ember
 ```
 Then, let's just quickly do the basics and hookup our version control. For those unfamiliar with the process, I quickly [create a new repo][new] with the same name (`hn-ember` in this case). No need to initialize it. 
 
@@ -46,11 +46,11 @@ Finally, though they may be a thing of the past soon, its probably a good idea t
 Good! Now we're all setup with squeeky clean app, and time to get to the nitty gritty.
 
 ## Let's get some data
-Now, before we start, a fair warning. When I started off doing this I found the data structure quite confusing, maybe it's just me, but there's surely room for improvement.
+Now, before we start, a fair warning. When I started off doing this I found the data structure rather confusing, maybe it's just me, but there's surely room for improvement.
 
 To start, let's make a connection with the API. Good practice would be to set the `ENV` variable, so in your `config/environment.js` file, set the variable to the API:
 
-``` 
+```
 var ENV = {
   ...
   firebase: 'https://hacker-news.firebaseio.com/v0',
@@ -72,8 +72,7 @@ var ENV = {
     'style-src': "'self' 'unsafe-inline' fonts.googleapis.com"
   },
   ...
-};
-  
+};  
 ```
 
 
