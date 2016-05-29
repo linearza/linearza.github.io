@@ -4,13 +4,13 @@ meta_description: "This is my blog."
 
 markdown: kramdown
 highlighter: rouge
+
 logo: false
 paginate: 15
 baseurl: /
 domain_name: 'http://www.linear.co.za'
 google_analytics: 'UA-59406852-1'
 gems: [jekyll-feed, jekyll-paginate]
-
 
 future: true
 
