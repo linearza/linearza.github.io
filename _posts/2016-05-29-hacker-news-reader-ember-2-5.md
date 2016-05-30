@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building a Hacker News reader using Ember-cli 2.5"
+title:  "Building a Hacker News reader in Ember 2.5 - Part 1"
 date:   2016-05-27 12:46:00
 categories: ember hacker-news tutorial
 ---
@@ -75,10 +75,7 @@ var ENV = {
 };  
 ```
 
-
-
-
-
+To be continued...
 
 
 [hn]: http://www.platform7.com/ember-hn/#/new
