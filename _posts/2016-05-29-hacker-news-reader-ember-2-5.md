@@ -5,8 +5,12 @@ date:   2016-05-27 12:46:00
 categories: ember hacker-news tutorial
 ---
 
+
 So I decided to do a little tutorial on building a hacker news reader in Ember. It has certainly being done before, and the idea is heavily inspired by the [reader][hn] built by @donovan-graham. 
 Let's get started!
+
+*Note:* You can find the related app [here][demo].
+
 
 ## Getting Started
 
@@ -101,7 +105,7 @@ By default the emberfire addon creates an adapter for us, but it places it in th
 To be continued...
 
 
-
+[demo]: https://github.com/linearza/hn-ember
 [hn]: http://www.platform7.com/ember-hn/#/new
 [api]: https://github.com/HackerNews/API
 [new]: https://github.com/new
