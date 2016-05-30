@@ -37,10 +37,19 @@ $ ember install ember-cli-sass
 ```
 Remember to change your `app.css` file to the sass version of `app.scss`.
 
-Finally, though they may be a thing of the past soon, its probably a good idea to use pods for organisational purposes, it does make things more sensible. To set pods as the default for when generating new items just set the following in your `.ember-cli` file:
+Then, though they may be a thing of the past soon, its probably a good idea to use pods for organisational purposes, it does make things more sensible. To set pods as the default for when generating new items just set the following in your `.ember-cli` file:
 
 ```
 "usePods": true
+```
+
+Finally, let's remove the redundant folders, since newly generated items will be placed in their respective pods. You can removed the following:
+
+```
+app/adapters
+app/controllers
+app/models
+app/routes
 ```
 
 Good! Now we're all setup with squeeky clean app, and time to get to the nitty gritty.
@@ -74,10 +83,26 @@ var ENV = {
   ...
 };  
 ```
+In order to make the connection we also need to add ember data and the firebase adapter:
+
+```
+$ ember install ember-data
+$ ember install emberfire
+```
+You can find the official documentation on setting up the firebase adapter [here][emberfire].
+Once that's done, lets generate an application adapter using the ember-cli generator:
+
+```
+$ ember g adapter application
+```
+By default the emberfire addon creates an adapter for us, but it places it in the `app/adapters` folder, let's just copy the contents over to the newly generated adapter in `app/application/adapter.js`, and delete the old one.
+
 
 To be continued...
+
 
 
 [hn]: http://www.platform7.com/ember-hn/#/new
 [api]: https://github.com/HackerNews/API
 [new]: https://github.com/new
+[emberfire]: https://www.firebase.com/docs/web/libraries/ember/quickstart.html
