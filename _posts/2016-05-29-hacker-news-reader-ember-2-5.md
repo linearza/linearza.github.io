@@ -43,7 +43,7 @@ Remember to change your `app.css` file to the sass version of `app.scss`.
 
 Then, though they may be a thing of the past soon, its probably a good idea to use pods for organisational purposes, it does make things more sensible. To set pods as the default for when generating new items just set the following in your `.ember-cli` file:
 
-```
+```javascript
 "usePods": true
 ```
 
@@ -73,7 +73,7 @@ var ENV = {
 
 While we're at it, lets also update our content security policy:
 
-```
+```javascript
 var ENV = {
   ...
   contentSecurityPolicy: {

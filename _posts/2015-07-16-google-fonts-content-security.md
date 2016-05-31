@@ -15,7 +15,7 @@ Today I quickly tried adding the [Roboto][roboto] google font to a new ember-cli
 
 The solution is to edit your `environment.js` file's content security policy, simply add it below the `EmberENV` object if you don't have it yet:
 
-```
+```javascript
   contentSecurityPolicy: {
     'default-src': "'none'",
     'script-src': "'self' 'unsafe-eval' 'unsafe-inline'",
