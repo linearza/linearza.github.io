@@ -63,7 +63,7 @@ Now, before we start, a fair warning. When I started off doing this I found the 
 
 To start, let's make a connection with the API. Good practice would be to set the `ENV` variable, so in your `config/environment.js` file, set the variable to the API:
 
-```
+```javascript
 var ENV = {
   ...
   firebase: 'https://hacker-news.firebaseio.com/v0',
