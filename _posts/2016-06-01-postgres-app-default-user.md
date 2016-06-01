@@ -6,7 +6,7 @@ categories: postgres config
 ---
 
 I decided to work through [this][tutorial] great introductory [Phoenix framework][phoenix] tutorial by Erik today.
-At the point of running the initial `$ mix ecto.create` Postgres however bombed on me, with this little message: 
+At the point of running the initial `$ mix ecto.create` command however, it bombed on me, with this little message: 
 
 ```
 ** (Mix) The database for PhoenixApi.Repo couldn't be created, reason given: psql: FATAL:  role "postgres" does not exist
