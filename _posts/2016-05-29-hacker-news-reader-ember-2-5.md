@@ -213,7 +213,7 @@ items: []
 
 And then finally, lets just loop the returned dataset out in our template:
 
-```handlebars
+```
 {{#each items as |item|}}
   {{item.id}}
 {{/each}}
@@ -222,8 +222,6 @@ And then finally, lets just loop the returned dataset out in our template:
 And so we have....hang on! Remember that comment I made at the start about the data modelling being confusing? Here we are. Now, it might just have been me, but my initial assumption was that since everything is an `item` we can simply get all the `items` and then loop and filter through them based on whatever attributes and preferences we prefer. This is not the case. The hacker news api provides seperate arrays of item id's and based on that we need to get the related items, so its a bit backwards. Now you might wonder why I made you go through all this effort, but I thought it would be a good idea of giving you an understanding of the structure that initially made me scratch my head for quite a bit.
 
 Let us therefore take a few steps back. We essentially want to use one of the collections, in this case I went with [topstories][topstories], but a `topstory` is essentially also an `item`. Now, topstories, though having a plural name is in fact a singular model, so don't let that confuse you as we generate our new items:
-
-```
 
 
 To be continued...
