@@ -214,6 +214,7 @@ items: []
 And then finally, lets just loop the returned dataset out in our template:
 
 ```
+//index/template.hbs
 {{#each items as |item|}}
   {{item.id}}
 {{/each}}
