@@ -5,7 +5,7 @@ date:   2016-06-13 13:17:00
 categories: css tricks
 ---
 
-Today I had to create a full screen, mobile horizontal slider. I rarely, if ever use floats anymore, far rather prefering the use of `inline-block` elements as they can be controller better using `text-align` and also behave more intuitively. So today I put together this, absolutely minimal, layout structure that won't require any dynamically updated widths, and that does fill the horizontal width of the screen by default, per item. 
+Today I had to create a full screen, mobile horizontal slider. I rarely, if ever use floats anymore, far rather prefering the use of `inline-block` elements as they can be controlled better using `text-align` and also behave more intuitively. So today I put together this, absolutely minimal, layout structure that won't require any dynamically updated widths, and that does fill the horizontal width of the screen by default, per item. 
 
 The html:
 
