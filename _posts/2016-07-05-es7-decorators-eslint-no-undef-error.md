@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "ES7 decorators and eslint no-undef error"
+title:  "ES7 decorators and ESLint no-undef errors"
 date:   2016-07-05 15:32:00
 categories: emberjs eslint es7
 ---
 
-Converting your Ember app to use [eslint][eslint], as opposed to the default jshint, is pretty straightfoward and useful, especially if you are considering to use newer EMCA features, such as [decorators][decorators].
+Converting your Ember app to use [ESLint][eslint], as opposed to the default JSHint, is pretty straightfoward and useful, especially if you are considering to use newer EMCA features, such as [decorators][decorators].
 
 You might run into a strange `no-undef` syntax case if you decide to use something like [ember-computed-decorators][ember-computed-decorators] and dont define the property correctly though!
 
