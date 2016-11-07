@@ -1,6 +1,6 @@
 name: Linear
-description: "Hello. I am a front-end developer. Ember is my jam!"
-meta_description: "This is my blog."
+description: "Hello. I am a frontend developer. I do Emberjs."
+meta_description: "Hello. I am a frontend developer. I do Emberjs."
 
 markdown: kramdown
 kramdown:
