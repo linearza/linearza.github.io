@@ -59,5 +59,5 @@ And the applicable Sass will be something of this sort:
 ```
 
 
-Hope it's of use to someone!
+Enjoy!
 
