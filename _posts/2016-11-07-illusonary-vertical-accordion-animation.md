@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Illusionary vertical accordion animation"
-date:   2016-05-12 16:24:00
+date:   2016-11-07 12:58:00
 categories: css tricks 
 ---
 
