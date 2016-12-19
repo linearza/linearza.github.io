@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lesser known CSS: column-count"
-date:   2015-07-16 15:53:00
+date:   2016-12-19 09:01:00
 categories: css
 ---
 
