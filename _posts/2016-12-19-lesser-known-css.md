@@ -7,9 +7,9 @@ categories: css
 
 I was looking into list styles today and stumbled across a CSS property that I've never seen before: `counter-increment` - here is an [explanation][counter-increment]. 
 
-This just made me aware of how, even after years of writing CSS, there are still nooks and crannies that I am not familiar with. I consider myself a rather conservative CSS coder, avoiding properties that arent very stable yet and that show strange side-effects too easily (like flexbox which I am still avoiding due to Android) but even so I only recently started using `calc` and it's already become a favourite of mine. 
+This just made me aware of how, even after years of writing CSS, there are still nooks and crannies that I am not familiar with. I consider myself a rather conservative CSS coder, avoiding properties that arent very stable yet and that show strange side effects too easily (like flexbox which I am still avoiding due to Android) but even so I only recently started using `calc` and it's already become a favourite of mine. 
 
-So in the spirit of discovering lesser known CSS I've decided to compile a list of properties that, atleast in my case, is lesser known, maybe never used before, and yet has good support.
+So in the spirit of discovering lesser known CSS I've decided to compile a list of properties that, atleast in my case, are lesser known, maybe never even used before, but yet has good support. So here we go.
 
 
 ### column-count: number|auto|initial|inherit;
