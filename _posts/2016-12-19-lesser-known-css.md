@@ -14,7 +14,7 @@ So in the spirit of discovering lesser known CSS I've decided to compile a list 
 
 ### column-count: number|auto|initial|inherit;
 
-[Ref][column-count]
+[Docs][column-count]
 
 This is an interesting property that allows you to create columns in a div without having to use an table. You simply specify the amount of columns.
 
@@ -36,6 +36,7 @@ This is an interesting property that allows you to create columns in a div witho
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet aliquet dolor. Maecenas lacinia nunc sed commodo elementum. Praesent tempus, diam et posuere mattis, est magna volutpat tortor, vel imperdiet odio felis nec sapien. Fusce dignissim, orci at aliquet tincidunt, nisl sem condimentum nulla, ut consectetur est velit eu ante. Donec tristique urna sit amet gravida maximus. Duis ac ultrices ex. Maecenas et malesuada nisi. Suspendisse vestibulum, lorem nec sollicitudin placerat, libero nibh sodales eros, vitae tempus purus lacus vitae metus. Donec pretium dictum nibh. Aliquam eleifend dui id augue ultricies eleifend. Etiam vestibulum, ante at lobortis tincidunt, metus odio dapibus felis, id euismod nisl purus eu nisi.
 </div>
 
+<br>
 
 <style type="text/css">
   .column-div{
