@@ -12,7 +12,7 @@ Now, to make a little confession, we use the pod structure (yes, I am aware of t
 As it stands, we also have a component of same said name (my-dashed-name), which lives under the path of `app/components/my-dashed-name`. 
 
 Now for the curious part. When I tried to render out the new route with the existing component, as such:
-```javascript
+```handlebars
   // app/my-dashed-name/template.hbs
   {{my-dashed-name}}
 ```
@@ -20,7 +20,7 @@ Now for the curious part. When I tried to render out the new route with the exis
 
 So to clarify, if we have the following structure:
 
-```javascript
+```handlebars
   // app/components/my-dashed-name/template.hbs <- component
   This is some component content
 
