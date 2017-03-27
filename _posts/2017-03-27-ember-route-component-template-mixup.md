@@ -11,12 +11,14 @@ Now, to make a little confession, we use the pod structure (yes, I am aware of t
 
 As it stands, we also have a component of same said name (my-dashed-name), which lives under the path of `app/components/my-dashed-name`. 
 
-Now for the curious part. When I tried to render out the new route with the existing component, as such:
+When I tried to render out the new route with the existing component, as such:
 ```javascript
   // app/my-dashed-name/template.hbs
   {% raw %}{{my-dashed-name}}{% endraw %}
 ```
-...it bombed out without error. After some digging and debugging (initially suspecting a bad script), I tried to render out the component on a seperate route in similar fashion. And heres the curious thing... it renders out the template content of the route, probably supposing it's the component's template!
+
+The above simply bombed out without error. After some digging and debugging (initially suspecting a bad script), I tried to render out the component on a seperate route in similar fashion. 
+Heres the curious thing: it renders out the *route template content* instead of the expected component template content, probably supposing it's the component's template instead.
 
 So to clarify, if we have the following structure:
 
@@ -34,5 +36,9 @@ So to clarify, if we have the following structure:
 The above structure will render out `This is some route content`.
 
 Take a look at this simple [twiddle][twiddle] for a better understanding.
+
+
+
+
 
 [twiddle]: https://ember-twiddle.com/894ffd93f67f7675b144d556b295c005?openFiles=application.template.hbs%2C
