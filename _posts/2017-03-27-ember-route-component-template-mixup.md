@@ -12,15 +12,15 @@ Now, to make a little confession, we use the pod structure (yes, I am aware of t
 As it stands, we also have a component of same said name (my-dashed-name), which lives under the path of `app/components/my-dashed-name`. 
 
 Now for the curious part. When I tried to render out the new route with the existing component, as such:
-```handlebars
+```javascript
   // app/my-dashed-name/template.hbs
-  {{my-dashed-name}}
+  {% raw %}{{my-dashed-name}}{% endraw %}
 ```
 ...it bombed out without error. After some digging and debugging (initially suspecting a bad script), I tried to render out the component on a seperate route in similar fashion. And heres the curious thing... it renders out the template content of the route, probably supposing it's the component's template!
 
 So to clarify, if we have the following structure:
 
-```handlebars
+```javascript
   // app/components/my-dashed-name/template.hbs <- component
   This is some component content
 
@@ -28,7 +28,7 @@ So to clarify, if we have the following structure:
   This is some route content
 
   // app/my-alternative-route/template.hbs
-  {{my-dashed-name}}}
+  {% raw %}{{my-dashed-name}}{% endraw %}
 ```
 
 The above structure will render out `This is some route content`.
