@@ -53,9 +53,14 @@ And so we were introduced to [javascript prototypal inheritance][inheritance].
 
 You see in javascript, and more specifically in the Ember context, when you define an array like that on the component, and you loop out multiple instances of that component, instead of each component (read class) getting its own array, they all reference back to the same images array. In simple terms, this then means, if you ever push to or update that array, it will reflect in all of them. 
 
-Fancy that. Don't let it fool you! 
+Fancy that. 
+
+Yehuda Katz did a good write-up on javascript prototypes, [read it here][wykatz].
+
+So we learn!
 
 
 [inheritance]: https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3
+[wykatz]: http://yehudakatz.com/2011/08/12/understanding-prototypes-in-javascript/
 
 
