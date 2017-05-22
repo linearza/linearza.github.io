@@ -4,6 +4,11 @@
 	display:inline;
 }
 
+img.emoji {  
+  margin: 0px !important;
+  display: inline !important;
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 	"syntax"
