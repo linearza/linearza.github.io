@@ -34,7 +34,7 @@ These images would then be displayed in a little carousel.
 This all worked fine on pages where I had a single instance of the component on the page, and where I passed in the images array along with an optional static image, but as soon as I started looping out multiple components, things got a bit strange... 
 
 
-```handlebars
+```html
   {{#each instances as |instance|}}
     {{my-images-component staticImage=instance.staticImage}}
   {{/each}}
