@@ -52,7 +52,7 @@ After spending quite a bit of time on it, we finally discovered that declaring t
  
 ```
 
-And so we were introduced to [inheritance][javascript prototypal inheritance].
+And so we were introduced to [javascript prototypal inheritance][inheritance].
 
 You see in javascript, and more specifically in the Ember context, when you define an array like that on the component, and you loop out multiple instances of that component, instead of each component (read class) getting its own array, they all reference back to the same images array. In simple terms, this then means, if you ever push to or update that array, it will reflect in all of them. 
 
