@@ -13,8 +13,7 @@ In my specific case I was passing in an array of image objects, and a static ima
 ```javascript
   images: [],
   ...
-  staticImage: null
- 
+  staticImage: null 
 ```
 
 After which I would simply run a function to setup another array based on this array, at which point I also pushed in a static image.
@@ -27,7 +26,6 @@ After which I would simply run a function to setup another array based on this a
     ...
     this.set('_allImages', images);
   },
- 
 ```
 
 These images would then be displayed in a little carousel. 
@@ -35,11 +33,9 @@ This all worked fine on pages where I had a single instance of the component on 
 
 
 ```html
-  {% raw %}
-  {{#each instances as |instance|}}
+  {% raw %}{{#each instances as |instance|}}
     {{my-images-component staticImage=instance.staticImage}}
-  {{/each}}
-  {% endraw %}
+  {{/each}}{% endraw %}
 ```
 
 You see, in my mind, declaring that blank array on the component implicitly meant resetting it on every component setup, and being an Ember component there was just no way the data could escape the component, especially since in the above example, I'm not even passing in any `images`, but rather just manipulating the images array in the component itself, and yet as the components were looped out, all of them got updated with the same data, the same static image.
@@ -51,7 +47,6 @@ After spending quite a bit of time on it, we finally discovered that declaring t
 ```javascript
   // images: [],
   images: null
- 
 ```
 
 And so we were introduced to [javascript prototypal inheritance][inheritance].
