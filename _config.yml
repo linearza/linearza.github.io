@@ -1,6 +1,6 @@
-name: Linear
-description: "Hello. I do Emberjs."
-meta_description: "Hello. I do Emberjs."
+name: Linearza
+description: "Emberjs & Rails tips"
+meta_description: "Emberjs & Rails tips"
 
 markdown: kramdown
 kramdown:
@@ -20,5 +20,4 @@ future: true
 
 # Details for the RSS feed generator
 url:            'www.linear.co.za'
-author:         'Linear'
-
+author:         'Linearza'
