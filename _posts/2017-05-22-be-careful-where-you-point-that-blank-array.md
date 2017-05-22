@@ -35,9 +35,11 @@ This all worked fine on pages where I had a single instance of the component on 
 
 
 ```html
+  {% raw %}
   {{#each instances as |instance|}}
     {{my-images-component staticImage=instance.staticImage}}
   {{/each}}
+  {% endraw %}
 ```
 
 You see, in my mind, declaring that blank array on the component implicitly meant resetting it on every component setup, and being an Ember component there was just no way the data could escape the component, especially since in the above example, I'm not even passing in any `images`, but rather just manipulating the images array in the component itself, and yet as the components were looped out, all of them got updated with the same data, the same static image.
