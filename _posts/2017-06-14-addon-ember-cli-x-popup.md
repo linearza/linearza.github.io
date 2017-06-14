@@ -19,7 +19,7 @@ Let me therefore introduce you to [ember-cli-x-popup][github-page].
 The plugin is, intentionally, unstyled, apart from some basic positioning related attributes. All other styles are applied inline. This allows for great configurability and unlimited layout possibilites within the popups themselves.
 
 ### Notes
-Popup positions are determined based on their size and relation to the edge of the screen. In rare cases that the trigger is to close to the edge and there is no viable position around it for the popup due to the popup size, it will not be displayed. This is easily fixable by adjusting the popup size.
+Popup positions are determined based on their size and relation to the edge of the screen. In rare cases that the trigger is too close to the edge and there is no viable position around it for the popup due to the popup size, it will not be displayed. This is easily fixable by adjusting the popup size using css. Warnings will be logged in the console.
 
 For styling, either style your own arbitrary classes within the component, or target the component classes themselves, namely: `.x-popup` and `.x-popup-popup`.
 
