@@ -52,7 +52,7 @@ After spending quite a bit of time on it, we finally discovered that declaring t
 
 Curious.. 
 
-Along with this we used an `arrays-contains` helper, which added to the embafflement due to its observer, seemingly, independently updating the other carousels.
+Along with this we used an `array-contains` helper, which added to the embafflement due to its observer, seemingly, independently updating the other carousels.
 
 And so we were introduced to [javascript prototypal inheritance][inheritance].
 
