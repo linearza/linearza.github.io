@@ -14,6 +14,7 @@ In our case we want to display popups as modals on specific, smaller screen size
 Let me therefore introduce you to [ember-cli-x-popup][github-page].
 
 Github: [https://timbuktutravel.github.io/ember-cli-x-popup/][github-page]
+
 Demo: [https://timbuktutravel.github.io/ember-cli-x-popup/][demo-page]
 
 The plugin is, intentionally, unstyled, apart from some basic positioning related attributes. All other styles are applied inline. This allows for great configurability and unlimited layout possibilites within the popups themselves.
