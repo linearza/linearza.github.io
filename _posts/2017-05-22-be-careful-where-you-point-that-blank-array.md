@@ -5,10 +5,11 @@ date:   2017-05-22 06:36:00
 categories: emberjs javascript
 ---
 
-Recently I did something quite common: I declared a blank array in a component, then strange things started happening.
-Up until now, declaring blank variables and default states was a pretty standard modus operandi for me, as it gives a clear indication of what is available wihtin a specific context, for one, and also resetting state for new components - or so I thought. 
+Recently I did something quite common: I declared a blank array in a component...then strange things started happening.
 
-In my specific case I was passing in an array of image objects, and a static image url:
+Up until now, declaring blank variables and default states was a pretty standard *modus operandi* for me, as it gives a clear indication of what is available wihtin a specific context, for one, and also resetting state for new components - or so I thought. 
+
+In my specific case I was passing in an array of image objects, and a static image url, which I defined in the component:
 
 ```javascript
   images: [],
@@ -16,7 +17,7 @@ In my specific case I was passing in an array of image objects, and a static ima
   staticImage: null 
 ```
 
-After which I would simply run a function to setup another array based on this array, at which point I also pushed in a static image.
+After which I would simply run a function to setup another array based on this array, and at which point I also pushed in a static image.
 
 ```javascript
    _setupImages() {
@@ -38,7 +39,7 @@ This all worked fine on pages where I had a single instance of the component on 
   {{/each}}{% endraw %}
 ```
 
-You see, in my mind, declaring that blank array on the component implicitly meant resetting it on every component setup, and being an Ember component there was just no way the data could escape the component, especially since in the above example, I'm not even passing in any `images`, but rather just manipulating the images array in the component itself, and yet as the components were looped out, all of them got updated with the same data, the same static image.
+You see, in my mind, declaring that blank array on the component implicitly meant resetting it on every component initiation, and being an Ember component there was just no way the data could escape the component, especially since in the above example, I'm not even passing in any `images`, but rather just manipulating the images array in the component itself, and yet as the components were looped out, all of them got updated with the same data, the same static image.
 
 Needless to say, this baffled us for a while.
 
@@ -49,15 +50,19 @@ After spending quite a bit of time on it, we finally discovered that declaring t
   images: null
 ```
 
+Curious.. 
+
+Along with this we used an `arrays-contains` helper, which added to the embafflement due to its observer, seemingly, independently updating the other carousels.
+
 And so we were introduced to [javascript prototypal inheritance][inheritance].
 
-You see in javascript, and more specifically in the Ember context, when you define an array like that on the component, and you loop out multiple instances of that component, instead of each component (read class) getting its own array, they all reference back to the same images array. In simple terms, this then means, if you ever push to or update that array, it will reflect in all of them. 
+You see (we learned) in javascript, and more specifically in the Ember context, when you define an array like that on the component, and you loop out multiple instances of that component, instead of each component (read class) getting its own array, they all reference back to the same (original) images array. In simple terms, this then means, if you ever push to or update that array, it will reflect in all of them since its the same array.  
 
 Fancy that. 
 
 Yehuda Katz did a good write-up on javascript prototypes, [read it here][wykatz].
 
-So we learn!
+So we learn!  
 
 
 [inheritance]: https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3
