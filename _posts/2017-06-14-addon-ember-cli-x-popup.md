@@ -5,14 +5,13 @@ date:   2017-06-14 20:46:00
 categories: emberjs ember-cli addon javascript
 ---
 
-The past two days or so I've been working on a new addon for popups. 
+The past two days or so I've been working on a new addon for popups, which doesnt require any additional third party plugins. 
 
-Our current implementation isn't very viewport aware and requires quite a bit of manual, context specific tweaking for larger, content heavy popups and even so they don't work so well in all cases. 
+The aim is to create a very generic wrapper, which manages the positioning with fallbacks (via a predetermined mapping), and which interferes as little as possible with the contained content, making it highly customizable. This all while also fitting seamlessly into the Ember ecosystem. 
 
-In our case we want to display popups as modals on specific, smaller screen sizes, while keeping the popup on screen at all times, regardless of preferred positioning.
+This gives greater control over display related logic, be that based around screen size or the like, regardless of context. 
 
-Let me therefore introduce you to [ember-cli-x-popup][github-page].
-
+### Links
 *Github*: [https://timbuktutravel.github.io/ember-cli-x-popup/][github-page] <br>
 *Demo*: [https://timbuktutravel.github.io/ember-cli-x-popup/][demo-page]
 
@@ -24,6 +23,8 @@ Popup positions are determined based on their size and relation to the edge of t
 For styling, either style your own arbitrary classes within the component, or target the component classes themselves, namely: `.x-popup` and `.x-popup-popup`.
 
 This is still a very early release, and I'm sure there is still much to improve, but it was a fun and interesting exercise in mapping the positional logic.
+
+More information can be found on the project pages.
 
 Please feel free to PR.
 
