@@ -1,6 +1,6 @@
 name: Linear
-description: "Hello. I am currently a principal Javascript engineer, and most confortable on the backend in Rails. I love exploring new technologies and am currently studying Rust. These are my ramblings!"
-meta_description: "Hello. I am currently a principal Javascript engineer, and most confortable on the backend in Rails. I love exploring new technologies and am currently studying Rust. These are my ramblings!"
+description: "Ramblings, wafflings and explorations of a software engineer"
+meta_description: "Hello. I am currently a principal Javascript engineer, and most comfortable on the backend in Rails. I love exploring new technologies and am currently studying Rust. These are my ramblings!"
 
 markdown: kramdown
 kramdown:

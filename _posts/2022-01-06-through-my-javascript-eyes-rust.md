@@ -10,7 +10,7 @@ Its been a minute since I've attempted to blog something, gosh! I've decided to 
 
 Primarily my goal is to explore a few backend frameworks such as [Rocket][rocket], and brush up my experience with a few old familiars such as Ruby on Rails, Phoenix and so on.
 
-I am specificallg approaching this from the perspective of a javascript engineer so my notes will be rooted in that context and from that perspective. For the purpose of this exercise, I am exploring the official [Rust docs][rust-lang].
+I am specifically approaching this from the perspective of a javascript engineer so my notes will be rooted in that context and from that perspective. For the purpose of this exercise, I am following the official [Rust docs][rust-lang].
 
 Anyway, enough waffling, these posts will be in short form and will simply contain notes on things that I find interesting or confusing as I undertake this learning journey. Here we go...
 
