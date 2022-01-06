@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Postgres.App and the default user"
+title:  "Phoenix, Postgres.app and the default user"
 date:   2016-06-01 14:31:00
 categories: postgres config
 ---

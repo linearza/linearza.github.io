@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Be careful where you point that - How declaring an blank array baffled us"
+title:  "Be careful where you point that"
+description: "How declaring an blank array baffled us"
 date:   2017-05-22 06:36:00
 categories: emberjs javascript
 ---
