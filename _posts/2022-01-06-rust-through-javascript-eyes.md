@@ -14,7 +14,7 @@ I am approaching this from the perspective of a, primarily, javascript engineer 
 
 Anyway, enough waffling, these posts will be in short form and will simply contain notes on things that I find interesting or confusing as I undertake this learning journey. Here we go...
 
-## Notes
+#### Notes
 
 * Compiled app runs in all supported environments, without requiring interpreter/compiler setup first, unllike pyhon, ruby etc.
 * Variables are immutable by default in Rust, as opposed to js

@@ -768,7 +768,7 @@ body:not(.post-template) .post-title {
 
 .post-meta {
     display: block;
-    margin: 1.75rem 0 10px 0;
+    margin: 1.75rem 0 30px 0;
     font-family: "Open Sans", sans-serif;
     font-size: 1.5rem;
     line-height: 2.2rem;
@@ -1617,6 +1617,10 @@ body:not(.post-template) .post-title {
 
     body:not(.post-template) .post-title {
         font-size: 2.5rem;
+    }
+
+    body:not(.post-template) .post-description {
+      font-weight: normal;
     }
 
     .post-template .post {

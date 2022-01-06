@@ -17,7 +17,7 @@ post_class: post-template
   <article class="post">
     <header class="post-header">
       <h1 class="post-title">{{ page.title }}</h1>
-      <h4 class="post-description">{{ page.description }}</h4>
+      <h5 class="post-description">{{ page.description }}</h5>
       <section class="post-meta">                
         <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
         {% if page.categories.size > 0 %} 
@@ -50,7 +50,7 @@ post_class: post-template
           <section class="author">
               <h4> {{ site.author }} </h4>
               <p> 
-                I have been working with Ember since the beta days of 2013 and have since also added Rails to my repetoire. I enjoy working for startups. And yes, CSS.
+                I am currently a principal Javascript engineer at a industry leading freight forward Sass startup. On the backend I have most experience in Rails, but I love exploring new technologies and am currently studying Rust. I am a founder, but enjoy working for startups.
               </p>
           </section>                
       {% endif %}
