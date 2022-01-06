@@ -23,7 +23,9 @@ Anyway, enough waffling, these posts will be in short form and will simply conta
 * `cargo docs --open` generates and opens offline docs for all used crates. This is pretty amazing!
 * The chaining and imports in Rust I'm finding a bit confusing, but as noted much of this requires knowledge of the imported library.
 * Rust allows for 'shadowing' variables, where you basically redefine a variable which was previously defined. This is a bit weird, but I guess somewhat like extending classes on a micro level.
-
+* Similar to javascript variables are defined with `let` and constants with `const` though constants require a type always being set
+* Methods can have deeply nested inner scopes `(){... {... {...}}}`  as opposed to javascript which only has contextual scope with hoisting
+* Main difference between shadowing and mutable variable is that a mutated variables cannot change type, but shadowing allows it
  
 
 [rocket]: https://rocket.rs/
